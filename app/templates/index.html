@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Handoff{% endblock %}
+{% block content %}
+<section class="hero">
+<div>
+<span class="badge">LIVE EVENT OPERATIONS</span>
+<h1>Don't let the next person <span>start from zero.</span></h1>
+<p>Handoff keeps event tasks, urgent help, resources and shift information in one live place.</p>
+<div class="hero-buttons">
+<a href="/create-event" class="button primary">Create Event</a>
+<a href="/join" class="button secondary">Join Event</a>
+</div>
+</div>
+</section>
+<section class="feature-grid">
+<div class="feature-card"><div class="feature-icon">✓</div><h3>Tasks</h3><p>See what needs to be done, claim it and mark it complete.</p></div>
+<div class="feature-card"><div class="feature-icon">!</div><h3>Live Help</h3><p>Need people immediately? Create a live volunteer request.</p></div>
+<div class="feature-card"><div class="feature-icon">+</div><h3>Resources</h3><p>Request cables, chairs, microphones, water or anything else.</p></div>
+<div class="feature-card"><div class="feature-icon">→</div><h3>Shift Handoff</h3><p>Tell the next volunteer what happened and what still needs attention.</p></div>
+</section>
+{% endblock %}
